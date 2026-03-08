@@ -2,7 +2,7 @@
 
 set -e
 
-REPO="https://raw.githubusercontent.com/YOURUSER/proxmox-homelab/main"
+REPO="https://raw.githubusercontent.com/ColdShadow80/proxmox-homelab/main"
 
 echo "Starting Homelab Bootstrap..."
 
