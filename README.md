@@ -77,8 +77,10 @@ Software:
 
 Run this on your **Proxmox host**:
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/YOURUSER/proxmox-homelab/main/bootstrap.sh)"
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ColdShadow80/proxmox-homelab/main/bootstrap.sh)"
 
+```
 
 This script will:
 
