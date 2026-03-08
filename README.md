@@ -15,6 +15,7 @@ The entire stack can be deployed with **one command** from the Proxmox host.
 
 # Architecture
 
+```
 Internet
 │
 ▼
@@ -28,10 +29,11 @@ Traefik Reverse Proxy
 ├─ Immich (optional)
 ├─ Uptime Kuma (optional)
 └─ Other Docker apps
-
+```
 
 Running on:
 
+```
 Proxmox VE
 └─ LXC Container
 └─ Docker
@@ -39,7 +41,7 @@ Proxmox VE
 ├─ Traefik
 ├─ Watchtower
 └─ Cloudflare Tunnel
-
+```
 
 ---
 
@@ -106,6 +108,7 @@ http://SERVER-IP:8080
 
 # Repository Structure
 
+```
 proxmox-homelab
 │
 ├── bootstrap.sh
@@ -119,7 +122,7 @@ proxmox-homelab
 │
 └── stacks
 └── docker-compose.yml
-
+```
 
 ---
 
